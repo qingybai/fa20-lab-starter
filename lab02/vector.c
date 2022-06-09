@@ -23,7 +23,7 @@ vector_t *bad_vector_new() {
     /* Create the vector and a pointer to it */
     vector_t *retval, v;
     retval = &v;
-
+    //this is where things go wrong: v will vanish when the function call ends
     /* Initialize attributes */
     retval->size = 1;
     retval->data = malloc(sizeof(int));
