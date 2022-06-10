@@ -49,6 +49,7 @@ vector_t also_bad_vector_new() {
     v.data[0] = 0;
     return v;
 }
+//A:should not pass an actual value but a pointer
 
 /* Create a new vector with a size (length) of 1
    and set its single component to zero... the
